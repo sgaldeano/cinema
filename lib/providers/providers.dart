@@ -1,0 +1,1 @@
+export 'package:s7_cinema/providers/movies_provider.dart';
