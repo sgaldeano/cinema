@@ -1,6 +1,6 @@
 # Cinema
 
-Flutter project used to learn how to develop a completely functional app prepared to release and with professional design and animation effects.
+Flutter project created to learn how to develop a completely functional app prepared to release and with professional design and animation effects.
 
 ## Getting Started
 
