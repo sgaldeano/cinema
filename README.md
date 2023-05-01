@@ -1,4 +1,4 @@
-# s7_cinema
+# Cinema
 
 Flutter project that will be used to learn how to develop a completely functional app prepared to release and with professional design and animation effects.
 
