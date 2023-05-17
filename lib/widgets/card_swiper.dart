@@ -1,6 +1,5 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
-
 import '../models/models.dart' show Movie;
 
 class CardsSwiper extends StatelessWidget {
@@ -29,12 +28,12 @@ class CardsSwiper extends StatelessWidget {
 
   	return SizedBox(
     	width: double.infinity,
-      height: size.height * 0.54,
+      height: size.height * 0.58,
 			child: Swiper(
 				itemCount: movies.length,
 				layout: SwiperLayout.STACK,
-				itemWidth: size.width * 0.6,
-				itemHeight: size.height * 0.46,
+				itemWidth: size.width * 0.78,
+				itemHeight: size.height * 0.54,
 				itemBuilder: (_, index) {
 					final movie = movies[index];
 

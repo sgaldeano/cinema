@@ -68,8 +68,8 @@ class MoviesProvider extends ChangeNotifier {
     if (response.statusCode == 200) {
       final popularResponse = PopularResponse.fromRawJson(response.body);
       popularMovies = [...popularMovies, ...popularResponse.movies];
-      notifyListeners();
       _popularPage++;
+      notifyListeners();
     }
   }
 

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:s7_cinema/providers/movies_provider.dart';
-
 import '../models/models.dart' show Cast;
 
 class CastingCards extends StatelessWidget {

@@ -36,6 +36,7 @@ class HomePage extends StatelessWidget {
 							movies: moviesProvider.onDisplayMovies
 						),
 
+						const SizedBox(height: 8),
 						//Slider of movie items
 						MovieSlider(
 							movies: moviesProvider.popularMovies,

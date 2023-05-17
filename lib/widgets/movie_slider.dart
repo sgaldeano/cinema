@@ -3,15 +3,15 @@ import '../models/models.dart' show Movie;
 
 class MovieSlider extends StatefulWidget {
 
-  final List<Movie> movies;
   final String? title;
+  final List<Movie> movies;
   final Function onNextPage;
 
   const MovieSlider({
     super.key,
+    this.title,
     required this.movies,
     required this.onNextPage,
-    this.title,
   });
 
   @override
@@ -41,9 +41,12 @@ class _MovieSliderState extends State<MovieSlider> {
 
   @override
   Widget build(BuildContext context) {
+
+    final Size size = MediaQuery.of(context).size;
+
     return SizedBox(
       width: double.infinity,
-      height: 270,
+      height: size.height * 0.30,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
