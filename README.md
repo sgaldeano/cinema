@@ -1,20 +1,7 @@
 # Cinema
 
 Flutter project created to learn how to develop a completely functional app prepared to release and with professional design and animation effects.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+<br><br>
 
 <img src="https://user-images.githubusercontent.com/32582213/235414792-f934a351-27ee-41a4-b4ce-afdbed48659b.png" width="300" height="683"> <img src="https://user-images.githubusercontent.com/32582213/235414222-e07f946c-f48d-48db-9d22-559a7744c61f.png" width="300" height="683">
 
